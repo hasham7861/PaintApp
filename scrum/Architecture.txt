@@ -1,0 +1,76 @@
+# Please discuss your architectural decisions below.
+
+High Level Architecture:
+
+	MVC
+	To keep the code simple, a partial MVC was implemented.
+	
+	Model
+	The Model captures enough information to re-draw the sketch of
+	the user.
+	
+	View+Controller
+	There is a View class as well as a few, what we call, view components.
+	The View class capturing the JFrame as well
+	as containing all of its components.
+	View components are meant to be contained in the main View.
+	Examples of view components are PaintPanel and ShapeChooserPanel.
+	
+	The View class, and view components all implements their own controller.
+	For example, the PaintPanel listens to its own MouseEvents.
+	This is instead of separating out the Controller from the View. This choice
+	was made to simplify the code, yet still keep it modular and clear.
+	
+	Each view component can see the containing View as well as the Model
+	as appropriate. This means that each view component can speak to the
+	other view components. An example of this is when the ShapeChooserPanel
+	buttons are clicked, resulting in a mode change in the PaintPanel.
+	
+---------------------------------------------------------------------
+TODO!!! Add in more architecture and discussion. For example, 
+do you do something interesting to fix the association between the 
+ShapeChooser and the PaintPanel? How about the PaintModel, something
+is clearly wrong with it. Can you come up with a better architecture?
+---------------------------------------------------------------------
+
+DESIGN PATTERNS USED
+	TODO!!! If you introduce a Design Pattern to solve a problem, 
+	discuss it below. Only add design patterns if they simplify and improve
+	the code. I see at least two that would greatly improve code. 
+		
+	Strategy:  We used strategy for the creation/modification of shape. All the shapes 
+			   are created by the mouse events, so we made it the strategy class each 
+			   have different code for the mouse events/methods. That way, paintPanel
+			   doesn't have to worry about what shape is being made/modified, the 
+			   listener will just handle that itself. The use os strategies simplies 
+			   the code in paintPanel and lets us avoid alot of if statements and 
+			   constant checking of which shape is currently being made. 
+	
+	Command:   We used command for paint/contain/move/copy methods of the objects. Because all
+			   shapes implement those, we can treat all the varying objects as just Shape objects
+			   instead of specific Polygon/Square/etc. objects. This way of treating all drawn 
+			   objects as shapes means all the actual classes (other than strategy) don't have to 
+			   know what type of shape the object is, just that they can treat it as a shape.
+		
+	Singleton:
+	
+	Composite: Before we implemented Squiggle, all points would just be in one list. 
+			   Because of that, the program could not distinguish between 2 different lines.
+			   All lines would be connected even if you released mouse between them. So for 
+			   Squiggle we made Squiggle a composite of Point objects. Squiggle is an object 
+			   which is made up of several other Point objects. That way, when paint method 
+			   is called on a random shape from model, even if Squiggle is technically 
+			   a list of Objects, it can still be painted easily. The design lets us treat 
+			   Squiggle just as any other Shape object. We use the same thing for Polyline/Polygon 
+			   as they extend Squiggle.
+	
+	Factory: We used factory for creating shape strategies that are attached to the PaintPanel. 
+			 We give the factory the current mode and it uses that to decide what strategy/selector
+			 it has to create. Those strategies then handle all the shape creation/manipulation.
+			 This way, handling different modes is all done by factory.
+	
+	Builder:
+	Observer/Observable:
+	... (any others you find useful) ...
+
+OTHER ARCHITECTURE DISCUSSIONS

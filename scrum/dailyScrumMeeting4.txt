@@ -1,0 +1,98 @@
+# Fill in, commit and push each day.
+# Group Member: Areeb Siddiqui
+Nov 2, 2016
+	Yesterday :N/A
+	Today     :N/A
+	Obstacles :N/A
+	
+Nov 3, 2016
+	Yesterday :N/A
+	Today     :N/A
+	Obstacles :N/A
+
+Nov 4, 2016
+	Yesterday :N/A
+	
+	Today     :Discussed User Stories, ideas for design patterns with group. 
+	
+	Obstacles :A group member had problems with merge
+
+Nov 5, 2016
+	Yesterday :Discussed ideas for code. 
+	
+	Today     :Added info for user stories, added user stories to sprint backlog. 
+			   Worked on Bug 3,4 and 5 (improved model, fixed Squiggle, made factory for shapes).
+			   
+	Obstacles :Problems with git merging and creating new branches. Had a lot of issues with new branches and merging.
+
+Nov 6, 2016
+	Yesterday : Did most of the design aspect (model, factory, squiggle as composite)
+	
+	Today     : Fixed Bug2: made way to see what current shape mode is. Lots of working/changing how factory works, 
+				how shapes are updated as mouse is dragged, how shapes are observable etc. Lots of changes to design.  
+				Helped group members with some stuff like factory, Rectangle and GUI. 
+				
+	Obstacles : Still had a lot of issues with creating branches and merging. It is taking a while to understand it all,
+				but we're getting there.
+	
+Nov 7, 2016
+	Yesterday : Fixed Bug 2, made changes with how shape works and how factory works. Helped group members with some stuff. 
+	
+	Today     : Did User stories 9 and 10. Added the GUI for Line Thickness and implemented the code for Line Thickness. 
+				Also changed how GUI looks a bit.
+				 
+	Obstacles :	Some merge conflicts took time. 
+	
+Nov 8, 2016
+	Yesterday : Worked on line thickness. 
+	
+	Today     : Discussed with group about redesigning how shapes are created. Implemented redesign for shape creation. Removed modifyShape 
+				entirely.  Adjusted factory and paint panel to new design. Also, implemented Polyline by creating a new mouse listener 
+				class for it. 
+				
+	Obstacles : Deciding on design.
+	
+Nov 9, 2016
+	Yesterday : Redesigns for how shape creation, modifyShape and factory works. Created new mouselisteners for polyline.
+	
+	Today     : Finished up documentation for all classes. Worked on a new shape Polygon. Fixed up issues here and there.
+	 
+	Obstacles : Donald Trump won the election, which hit me pretty hard.
+	
+Nov 13, 2016
+	Yesterday : N/A
+	
+	Today     : Did Bug 2.3 and 2.4. Made strategy classes for each of the shapes. Adjusted factory so that it now creates differnet instances 
+				of strategy based on the current mode. Made the 2 listener classes that correspond to the strategies. 
+	 
+	Obstacles : Unsure of how the command pattern should work for painting shapes. We think what we have right now is fine but we aren't sure. 
+				Also, not sure if strategies themselves should be listeners or if the listeners should be seperate classes. 
+				
+Nov 14, 2016
+	Yesterday : Did Bug 2.3 and 2.4
+	
+	Today     : Improved Bug 2.4 so that now the strategy classes implement listeners by themselves. Also, adjusted factory to new design of 
+				strategy classes. Also, worked on feedback for polygon and polyline.
+	 
+	Obstacles : Again, deciding if strategy classes implement listeners or not took a while to determine.
+	
+Nov 15, 2016
+	Yesterday : Redid Bug 2.4 and worked on polygon/polyline
+	
+	Today     : Removed unused code and code that was commented out. Made code cleaner. Creassted selection for shapes. Now shapes can be selected 
+				and moved around. Implemented selection for Rectangle,Square,Squiggle,Circle so far. Made it so Eraser can't be selected and moved.
+				
+	 
+	Obstacles : Determining if a click is inside of a shape is difficult for some cases.
+	
+Nov 16, 2016
+	Yesterday : Did ShapeSelector. 
+	
+	Today     : Implemented ShapeSelector for Polygon and Polyline. Used referenced code for some of the click issues. Maded it so user 
+				can change the graphical attributes of a shape after selecting it. Implemented Copy, Paste and Cut for selected Shape. 
+				Added New and Clear implementation. Fixed the Polyline/Polygon selection SEVERAL TIMES. SEVERAL. OH GOD, SO MANY TIMES.
+				Fixed bugs found along the way. Made it so right click deselects shape. 
+	 
+	Obstacles : Polygon and Polyline Selection. Lots of trial and error. Deciding on how packages should be. 
+	 
+	 

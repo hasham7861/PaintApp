@@ -1,0 +1,61 @@
+# Fill in, commit and push each day.
+# Group Member: Nikolas Komonen
+Nov 2, 2016
+	Yesterday :Did Nothing
+	Today     :Did Nothing
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :Did Nothing
+	Today     :Read over the code a bit to see how it works
+	Obstacles :
+
+Nov 4, 2016
+	Yesterday :Read over the code
+	Today     :Filled in group info and updated dailylog
+	Obstacles :Learning how git with the team worked
+
+Nov 5, 2016
+	Yesterday :Filled in group info and daily log
+	Today     :Completed some user stories and bugs, added icons to the buttons
+	Obstacles :Lots of conflicts and learning to solve them.
+
+Nov 6, 2016
+	Yesterday :Completed icons to buttons
+	Today     :Completed the Square and Rectangle, worked on other User Stories and Bugs 
+			   that teamates started working on.
+	Obstacles :Getting more conflicts and trying to resolve, forgot about aliasing.
+	
+Nov 7, 2016
+	Yesterday :Completed Square and Rectangle
+	Today     :Did some minor bug fixing.
+	Obstacles :None
+	
+Nov 8, 2016
+	Yesterday :Minor Bug Fixing
+	Today     :Finalized Everything, Began Commenting.
+	Obstacles :None
+	
+Nov 9, 2016
+	Yesterday :Finalized my parts and comments.
+	Today     :Team added an extra feature, I was not a part of it
+	
+Nov 13, 2016
+	Today: Beginning Sprint 2, went over bugs to fix and discussed options.
+	Obstacles: None
+
+Nov 14, 2016
+	Yesterday: Beginning Sprint 2, went over bugs to fix and discussed options.
+	Today: Worked with Tahmid on polyline,polygon and undo/redo to make it all work. 
+	Obstacles: Needed to instantiate Polygon with 2 points instead of one.
+
+Nov 15, 2016
+	Yesterday: Worked with Tahmid on polyline,polygon and undo/redo to make it all work.
+	Today: Did nothing today
+	Obstacles: None
+
+Nov 16, 2016:
+	Yesterday: Did nothing.
+	Today: Gave moral support to partners working on shape selector feature. Updated sprintBacklog.
+	Obstacles: None
+	

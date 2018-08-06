@@ -1,0 +1,65 @@
+# Fill in, commit and push each day.
+# Group Member: Hasham Alam
+Nov 2, 2016
+	Yesterday : Did Nothing
+	Today     : Did Nothing
+	
+Nov 3, 2016
+	Yesterday : Did Nothing
+	Today     : Looked at the user stories to see how customer wants the paint app
+
+Nov 4, 2016
+	Yesterday : Looked Over the code
+	Today     : Did Nothing
+
+Nov 5, 2016
+	Yesterday : Did Nothing
+	Today     : Updated Squiggle class & fixed bug when drawing circle
+	Obstacles : Circles wouldn't repaint 
+
+Nov 6, 2016
+	Yesterday : Fixed squiggle class 
+	Today     : Made the color Panel class and made it work, Also made Polygon to work.
+	
+Nov 7, 2016
+	Yesterday : 
+	Today     : Added a toolpanel for fill shapes and thickness. Made the tools fill and thick to work
+	Obstacles : Improving the layouts
+	
+Nov 8, 2016
+	Yesterday : added toolpanel, finished thickness of strokes story, and fill in shape
+	Today     : commenting on toolpanel classes and improved the design of code
+	
+Nov 9, 2016
+	Yesterday : Created ToolPanel, worked on thickness of stroke of a line and also added ability to fill in shape
+	Today     : Worked on Polygon object with Tahmid and finished up the rest of the project.
+	
+	
+Nov 10, 2016
+	Yesterday : Created ToolPanel, worked on thickness of stroke of a line and also added ability to fill in shape
+	Today     : looked over the code and fixed bugs here and there
+	
+Nov 11, 2016
+	Yesterday : Fixed bugs 
+	Today     : Did nothing
+	
+Nov 12, 2016
+	Yesterday : Did nothing
+	Today     : Did nothing
+
+Nov 13, 2016
+	Yesterday : did nothing
+	Today     : Created the new feature
+	
+Nov 14, 2016
+	Yesterday : created the new feature
+	Today     : Worked a bit more on strokeCOlor changes
+	Obstacles : couldn't get it to work
+	
+Nov 15, 2016
+	Yesterday : worked on strokeColor changes
+	Today     : Fixed stroke color feature
+	
+Nov 15, 2016
+	Yesterday : Worked on strokeColor Feature
+	Today     : Finalized the assignment2 part 2

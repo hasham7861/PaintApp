@@ -1,0 +1,90 @@
+# Fill in, commit and push each day.
+# Group Member: mostaf34
+Nov 2, 2016
+	Yesterday : NA
+	Today     : NA
+	Obstacles : NA
+	
+Nov 3, 2016
+	Yesterday : NA
+	Today     : NA
+	Obstacles : NA
+
+Nov 4, 2016
+	Yesterday : NA
+	Today     :	Discussed with group members what design to use and discussed user stories
+	Obstacles :	Merging branch into master
+
+Nov 5, 2016
+	Yesterday :	Figured which design patterns to apply and how to go about working
+				with the team, for example decided on sprintBackLog.
+				
+	Today     :	I am working on Bug 6, UserStory 1 and 2.
+	
+	Obstacles :	Encountered problems working with many class while applying the
+				design pattern. However, I was able to fix them.
+
+Nov 6, 2016
+	Yesterday : Fixed Bug 6 which was the broken circle.
+				Did UserStories 1 & 2 Circle now is drawn using actual radius.
+				Real-time feedback is shown while showing drawing them.
+	
+	Today     :	Working with the group on UserStories 3,4,11,12, which are about rectangle and square.
+				Working to improve design pattern.
+				For example, making modifyShape method in Shape abstract class, and
+				implementing them in the Shape classes that extends.
+				Furthermore, using MVC when modifying, so we have an ideal design to show real-time feedback.
+
+	Obstacles :	Few issues with git when merging. I had to do head revision or reset to resolve them.
+	
+Nov 7, 2016
+	Yesterday :	Fixed Rectangle and square. Worked with the group to make a better design of classes and objects.
+	Today     : Working to implement better design pattern.
+				Working on Bug7 which is to fix broken polyline.
+				
+	Obstacles :	Facing issues with figuring out how to deal with different mouse events.
+	
+Nov 8, 2016
+	Yesterday : Polyline is fixed. Improved design pattern.
+	Today     :	Writing documentation, fixing bugs. Changing to better variable names if needed.
+	Obstacles :	Faced issues with merging and pushing to the shared-repo.
+	
+Nov 9, 2016
+	Yesterday : Finished writting documentation. Design patterned improved.
+	Today     :	Making extra shapes Polygon. Fixing Polyline. Added new icons. Finalizing the project.
+	Obstacles : Issues with merging.
+	
+Nov 10, 2016
+	Yesterday : Submitted Part 1 of assignment 2.
+	Today     : Waiting for assignment 2 part 2.
+	Obstacles : N/A
+	
+Nov 11, 2016
+	Yesterday : Waited for assignment 2 part 2.
+	Today     : Waiting for assignment 2 part 2.
+	Obstacles : N/A
+	
+Nov 12, 2016
+	Yesterday : Waited for Assignment 2 part 2.
+	Today     : Reading over the part 2 of assignment 2. Discussing about the bugs and design pattern.
+	Obstacles : Committing doesn't update Daily-Scrum
+	
+Nov 13, 2016
+	Yesterday : Read over the assignment 2 part 2. Discussed about the bugs and design pattern. Started implementing strategy.
+	Today	  : Fixing Polygon bug. Polygon does not show feedback. Working on strategy design pattern.
+	Obstacles :	Committing doesn't update Daily-Scrum.
+	
+Nov 14, 2016
+	Yesterday : Worked with the group to implement strategy design patter. Worked on fixing Polygon bug. Got new Polyline bug.
+	Today	  : Working with the group to implement strategy pattern. Fixing Polygon and Polyline drawing, and feedback.
+	Obstacles : None.
+	
+Nov 15, 2016
+	Yesterday : Improved design pattern. Implementation of command, strategy is done. Polygon and Polyline is fixed.
+	Today     : Implementing shpaeSelector and moving shape user case. Writing documentation and finalizing the assignment.
+	Obstacles : Figuring out how to find if a point is inside a polygon shape.
+	
+Nov 16, 2016
+	Yesterday : ShapeSelector is implememnted for all shapes. Fixed polyline selector bug.
+	Today     : Changing variable name if the name is bad. Making docs and finalizing sprint 2 for final submission.
+	Obstacles : None.
